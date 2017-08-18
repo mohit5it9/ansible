@@ -69,4 +69,4 @@ build:
     pull: false
     options: "--privileged=false --net=bridge"
   ci:
-    - echo "done"
+    - test/utils/shippable/timing.sh test/utils/shippable/shippable.sh
